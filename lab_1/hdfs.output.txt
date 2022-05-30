@@ -1,0 +1,188 @@
+2022-04-25 14:34:30,970 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+-rw-r--r--   3 root supergroup  104857600 2022-04-25 14:34 /temp/test.txt
+Replication 1 set: /logs/test.txt
+Waiting for /logs/test.txt ... done
+2022-04-25 14:34:41,414 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:34:41,561 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:34:44,742 INFO tools.DistCp: Input Options: DistCpOptions{atomicCommit=false, syncFolder=false, deleteMissing=false, ignoreFailures=false, overwrite=false, append=false, useDiff=false, useRdiff=false, fromSnapshot=null, toSnapshot=null, skipCRC=false, blocking=true, numListstatusThreads=0, maxMaps=20, mapBandwidth=0.0, copyStrategy='uniformsize', preserveStatus=[BLOCKSIZE], atomicWorkPath=null, logPath=null, sourceFileListing=null, sourcePaths=[/logs], targetPath=/logs2, filtersFile='null', blocksPerChunk=0, copyBufferSize=8192, verboseLog=false, directWrite=false}, sourcePaths=[/logs], targetPathExists=false, preserveRawXattrsfalse
+2022-04-25 14:34:45,051 INFO client.RMProxy: Connecting to ResourceManager at resourcemanager/172.18.0.2:8032
+2022-04-25 14:34:45,304 INFO client.AHSProxy: Connecting to Application History server at historyserver/172.18.0.6:10200
+2022-04-25 14:34:45,572 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:34:46,095 INFO tools.SimpleCopyListing: Paths (files+dirs) cnt = 3; dirCnt = 1
+2022-04-25 14:34:46,095 INFO tools.SimpleCopyListing: Build file listing completed.
+2022-04-25 14:34:46,098 INFO Configuration.deprecation: io.sort.mb is deprecated. Instead, use mapreduce.task.io.sort.mb
+2022-04-25 14:34:46,098 INFO Configuration.deprecation: io.sort.factor is deprecated. Instead, use mapreduce.task.io.sort.factor
+2022-04-25 14:34:46,154 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:34:46,201 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:34:46,251 INFO tools.DistCp: Number of paths in the copy list: 3
+2022-04-25 14:34:46,286 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:34:46,727 INFO tools.DistCp: Number of paths in the copy list: 3
+2022-04-25 14:34:46,744 INFO client.RMProxy: Connecting to ResourceManager at resourcemanager/172.18.0.2:8032
+2022-04-25 14:34:46,745 INFO client.AHSProxy: Connecting to Application History server at historyserver/172.18.0.6:10200
+2022-04-25 14:34:47,026 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/root/.staging/job_1650886745787_0005
+2022-04-25 14:34:47,089 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:34:47,275 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:34:47,417 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:34:47,455 INFO mapreduce.JobSubmitter: number of splits:3
+2022-04-25 14:34:47,878 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:34:48,426 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1650886745787_0005
+2022-04-25 14:34:48,426 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2022-04-25 14:34:48,740 INFO conf.Configuration: resource-types.xml not found
+2022-04-25 14:34:48,740 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2022-04-25 14:34:49,391 INFO impl.YarnClientImpl: Submitted application application_1650886745787_0005
+2022-04-25 14:34:49,554 INFO mapreduce.Job: The url to track the job: http://resourcemanager:8088/proxy/application_1650886745787_0005/
+2022-04-25 14:34:49,555 INFO tools.DistCp: DistCp job-id: job_1650886745787_0005
+2022-04-25 14:34:49,556 INFO mapreduce.Job: Running job: job_1650886745787_0005
+2022-04-25 14:35:00,247 INFO mapreduce.Job: Job job_1650886745787_0005 running in uber mode : false
+2022-04-25 14:35:00,248 INFO mapreduce.Job:  map 0% reduce 0%
+2022-04-25 14:35:16,194 INFO mapreduce.Job:  map 33% reduce 0%
+2022-04-25 14:35:20,241 INFO mapreduce.Job:  map 67% reduce 0%
+2022-04-25 14:35:27,688 INFO mapreduce.Job:  map 100% reduce 0%
+2022-04-25 14:35:29,735 INFO mapreduce.Job: Job job_1650886745787_0005 completed successfully
+2022-04-25 14:35:30,130 INFO mapreduce.Job: Counters: 38
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=700134
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=209716649
+		HDFS: Number of bytes written=209715200
+		HDFS: Number of read operations=49
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=13
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=3
+		Other local map tasks=3
+		Total time spent by all maps in occupied slots (ms)=163839
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=54613
+		Total vcore-milliseconds taken by all map tasks=54613
+		Total megabyte-milliseconds taken by all map tasks=167771136
+	Map-Reduce Framework
+		Map input records=3
+		Map output records=0
+		Input split bytes=402
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=1051
+		CPU time spent (ms)=6920
+		Physical memory (bytes) snapshot=599846912
+		Virtual memory (bytes) snapshot=11598589952
+		Total committed heap usage (bytes)=469237760
+		Peak Map Physical memory (bytes)=226406400
+		Peak Map Virtual memory (bytes)=3868213248
+	File Input Format Counters 
+		Bytes Read=1047
+	File Output Format Counters 
+		Bytes Written=0
+	DistCp Counters
+		Bandwidth in Btyes=52428799
+		Bytes Copied=209715200
+		Bytes Expected=209715200
+		Files Copied=2
+		DIR_COPY=1
+Found 2 items
+-rw-r--r--   3 root supergroup  104857600 2022-04-25 14:35 /logs2/test.txt
+-rw-------   3 root supergroup  104857600 2022-04-25 14:35 /logs2/test2.txt
+1.1 M  3.2 M   /app-logs
+200 M  400 M   /logs
+200 M  600 M   /logs2
+4.3 K  12.9 K  /rmstate
+0      0       /temp
+1.5 M  4.4 M   /tmp
+0      0       /user
+0      0       /wordcount_streaming
+Deleted /logs
+Connecting to namenode via http://namenode:9870/fsck?ugi=root&path=%2Flogs2
+FSCK started by root (auth:SIMPLE) from /172.18.0.4 for path /logs2 at Mon Apr 25 14:35:45 UTC 2022
+
+/logs2/test.txt:  Under replicated BP-1016068973-172.18.0.2-1650313910414:blk_1073741962_1141. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+
+/logs2/test2.txt:  Under replicated BP-1016068973-172.18.0.2-1650313910414:blk_1073741961_1140. Target Replicas is 3 but found 1 live replica(s), 0 decommissioned replica(s), 0 decommissioning replica(s).
+
+Status: HEALTHY
+ Number of data-nodes:	1
+ Number of racks:		1
+ Total dirs:			1
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	209715200 B
+ Total files:	2
+ Total blocks (validated):	2 (avg. block size 104857600 B)
+ Minimally replicated blocks:	2 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	2 (100.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	1.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		4 (66.666664 %)
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+FSCK ended at Mon Apr 25 14:35:45 UTC 2022 in 17 milliseconds
+
+
+The filesystem under path '/logs2' is HEALTHY
+Configured Capacity: 62725623808 (58.42 GB)
+Present Capacity: 49422719581 (46.03 GB)
+DFS Remaining: 49208385536 (45.83 GB)
+DFS Used: 214334045 (204.40 MB)
+DFS Used%: 0.43%
+Replicated Blocks:
+	Under replicated blocks: 45
+	Blocks with corrupt replicas: 0
+	Missing blocks: 0
+	Missing blocks (with replication factor 1): 0
+	Low redundancy blocks with highest priority to recover: 45
+	Pending deletion blocks: 0
+Erasure Coded Block Groups: 
+	Low redundancy block groups: 0
+	Block groups with corrupt internal blocks: 0
+	Missing block groups: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+
+-------------------------------------------------
+Live datanodes (1):
+
+Name: 172.18.0.3:9866 (datanode.docker-hadoop-spark_default)
+Hostname: datanode
+Decommission Status : Normal
+Configured Capacity: 62725623808 (58.42 GB)
+DFS Used: 214334045 (204.40 MB)
+Non DFS Used: 10086188451 (9.39 GB)
+DFS Remaining: 49208385536 (45.83 GB)
+DFS Used%: 0.34%
+DFS Remaining%: 78.45%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Mon Apr 25 14:35:47 UTC 2022
+Last Block Report: Mon Apr 25 11:38:31 UTC 2022
+Num of Blocks: 45
+
+
+2022-04-25 14:35:50,476 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:35:53,289 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2022-04-25 14:35:53,777 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+200 M  600 M  /logs2/test.txt
+100 M  300 M  /logs2/test2.txt
